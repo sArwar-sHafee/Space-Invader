@@ -2,16 +2,16 @@ const CANVAS_WIDTH = 800;
 const CANVAS_HEIGHT = 600;
 
 const ASSET_PATHS = {
-    PLAYER: '../SpaceInvader/ship.png',
-    ENEMY_OCTO1: '../SpaceInvader/octo1.png',
-    ENEMY_OCTO2: '../SpaceInvader/octo2.png',
-    BULLET: '../SpaceInvader/bullet.png',
-    BACKGROUND_IMAGE: '../SpaceInvader/1876bg.jpg',
-    SOUND_SHOOT: '../SpaceInvader/fire.wav',
-    SOUND_ENEMY_HIT: '../SpaceInvader/die.wav', // Using die.wav for enemy hit
-    SOUND_PLAYER_EXPLOSION: '../SpaceInvader/burst.wav', // Using burst.wav for player explosion
-    SOUND_LEVEL_UP: '../SpaceInvader/bell.wav', // Using bell.wav for level up
-    SOUND_BACKGROUND: '../SpaceInvader/bg.wav'
+    PLAYER: 'SpaceInvader/ship.png',
+    ENEMY_OCTO1: 'SpaceInvader/octo1.png',
+    ENEMY_OCTO2: 'SpaceInvader/octo2.png',
+    BULLET: 'SpaceInvader/bullet.png',
+    BACKGROUND_IMAGE: 'SpaceInvader/1876bg.jpg',
+    SOUND_SHOOT: 'SpaceInvader/fire.wav',
+    SOUND_ENEMY_HIT: 'SpaceInvader/die.wav', // Using die.wav for enemy hit
+    SOUND_PLAYER_EXPLOSION: 'SpaceInvader/burst.wav', // Using burst.wav for player explosion
+    SOUND_LEVEL_UP: 'SpaceInvader/bell.wav', // Using bell.wav for level up
+    SOUND_BACKGROUND: 'SpaceInvader/bg.wav'
 };
 
 const PLAYER_SPEED = 5; // pixels per frame (scaled by deltaTime)
